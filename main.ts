@@ -1,4 +1,4 @@
-// Verified-deal board: 38 store-checked Black Friday prices with deal-verdict signals.
+// Verified-deal board: 39 store-checked Black Friday prices with deal-verdict signals.
 // The site is this directory's app/ folder — plain static files a browser opens at
 // app/index.html (ES modules, CSS, no build step), its deals held in its own files: nothing it
 // runs, styles or shows loads over the network, and each deal links out to its store. The
@@ -8,7 +8,7 @@
 // vendor/makefun-frontend.ts as it is: the scorer requires dossier.json to be byte for byte
 // what its own copy writes.
 //
-// The deals: 38 of them, found and price-checked by the agent on Black Friday itself,
+// The deals: 39 of them, found and price-checked by the agent on Black Friday itself,
 // 27 November 2026, against live deals sources that name the store and the price. Each carries
 // its sale price, its usual price, a store link, the UTC time it was checked, the source that
 // verified it, and a verdict — new low, strong deal or solid deal — with the evidence for it.
